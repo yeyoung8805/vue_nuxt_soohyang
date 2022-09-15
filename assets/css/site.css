@@ -146,10 +146,6 @@ ul.product-list li .des {
 footer {
     width: 100%;
     background: #f0f0f0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 footer .container {
     padding: 40px 10vw;
