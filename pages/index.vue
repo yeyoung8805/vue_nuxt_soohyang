@@ -3,11 +3,11 @@
     <div class="container">
       <ul class="product-list">
         <li>
-          <a href="/detail.html">
+          <NuxtLink to="/detail">
             <div class="img">
               <img src="/assets/images/1.jpg" alt="image" />
             </div>
-          </a>
+          </NuxtLink>
 
           <div class="des">
             <strong>Itaewon 565</strong><br />
@@ -15,11 +15,11 @@
           </div>
         </li>
         <li>
-          <a href="/detail.html">
+          <NuxtLink to="/detail">
             <div class="img">
               <img src="/assets/images/2.jpg" alt="image" />
             </div>
-          </a>
+          </NuxtLink>
 
           <div class="des">
             <strong>Soohyang Wick Trimmer</strong><br />
@@ -27,11 +27,11 @@
           </div>
         </li>
         <li>
-          <a href="/detail.html">
+          <NuxtLink to="/detail">
             <div class="img">
               <img src="/assets/images/3.jpg" alt="image" />
             </div>
-          </a>
+          </NuxtLink>
 
           <div class="des">
             <strong>Soohyang Matchbox Black</strong><br />
@@ -39,11 +39,11 @@
           </div>
         </li>
         <li>
-          <a href="/detail.html">
+          <NuxtLink to="/detail">
             <div class="img">
               <img src="/assets/images/4.jpg" alt="image" />
             </div>
-          </a>
+          </NuxtLink>
 
           <div class="des">
             <strong>Soohyang Matchbox Pink</strong><br />
