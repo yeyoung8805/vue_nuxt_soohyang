@@ -1,8 +1,10 @@
 <template>
   <header>
-    <ul class="menu">
-      <li @click="$router.push('/shop')">Shop</li>
-    </ul>
+    <div class="container">
+      <ul class="menu">
+        <li @click="$router.push('/shop')">Shop</li>
+      </ul>
+    </div>
   </header>
 </template>
 
