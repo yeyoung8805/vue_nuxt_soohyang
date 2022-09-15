@@ -2,7 +2,9 @@
   <header>
     <div class="container">
       <ul class="menu">
-        <li @click="$router.push('/shop')">Shop</li>
+        <li>
+          <a href="https://soohyang.co.kr" target="_blank">soohyang.co.kr</a>
+        </li>
       </ul>
     </div>
   </header>

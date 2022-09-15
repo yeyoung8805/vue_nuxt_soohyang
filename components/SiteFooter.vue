@@ -1,6 +1,8 @@
 <template>
   <footer>
-    <div class="container">@2022 Kim Ye Young. All rights reserved.</div>
+    <div class="container">
+      Copyright © 2022 Soohyang Inc. All rights reserved.
+    </div>
   </footer>
 </template>
 
