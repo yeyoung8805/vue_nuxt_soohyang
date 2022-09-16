@@ -10,6 +10,15 @@
       <h1>{{ productPrice }}</h1>
       <h1>{{ productImage }}</h1>
     </div>
+
+    <div class="img">
+      <img :src="item.image" alt="image" />
+    </div>
+    <div class="des">
+      <strong>{{ item.title }}</strong> <br />
+      {{ item.price }}<br />
+    </div>
+    
   </div>
 </template>
 
