@@ -40,7 +40,6 @@ export default {
   },
   methods: {
     async readProductDetail() {
-      // let resource =
       await fetch("/data/product.json")
         .then((res) => res.json())
         .then((data) => {
