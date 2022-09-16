@@ -3,9 +3,11 @@
     <div class="container">
       <ul class="product-list">
         <li v-for="(item, i) in productStore.items" :key="i">
-          <div class="img">
-            <img :src="item.image" alt="image" />
-          </div>
+          <nuxt-link :to="{ path: '/detail/product', query: { id: item.id } }">
+            <div class="img">
+              <img :src="item.image" alt="image" />
+            </div>
+          </nuxt-link>
           <div class="des">
             <strong>{{ item.title }}</strong> <br />
             {{ item.price }}
