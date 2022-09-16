@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>Detail Page!!</h1>
+    <h1>
+      Detail Page!! for product - <strong>{{ productId }}</strong>
+    </h1>
     <ul class="product-list">
       <li>
         <div class="img">
