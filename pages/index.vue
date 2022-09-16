@@ -3,7 +3,7 @@
     <div class="container">
       <ul class="product-list">
         <li>
-          <NuxtLink to="/detail">
+          <NuxtLink to="/detail/product">
             <div class="img">
               <img src="/assets/images/1.jpg" alt="image" />
             </div>
@@ -15,7 +15,7 @@
           </div>
         </li>
         <li>
-          <NuxtLink to="/detail">
+          <NuxtLink to="/detail/product">
             <div class="img">
               <img src="/assets/images/2.jpg" alt="image" />
             </div>
@@ -27,7 +27,7 @@
           </div>
         </li>
         <li>
-          <NuxtLink to="/detail">
+          <NuxtLink to="/detail/product">
             <div class="img">
               <img src="/assets/images/3.jpg" alt="image" />
             </div>
@@ -39,7 +39,7 @@
           </div>
         </li>
         <li>
-          <NuxtLink to="/detail">
+          <NuxtLink to="/detail/product">
             <div class="img">
               <img src="/assets/images/4.jpg" alt="image" />
             </div>
