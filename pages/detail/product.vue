@@ -1,24 +1,18 @@
 <template>
   <div>
     <h1>Detail Page!!</h1>
-    <div>
-      <h1>{{ id }}</h1>
-      <h1>{{ productId }}</h1>
-      <h1>{{ productTitle }}</h1>
-      <h1>{{ productSummary }}</h1>
-      <h1>{{ productContent }}</h1>
-      <h1>{{ productPrice }}</h1>
-      <h1>{{ productImage }}</h1>
-    </div>
-
-    <div class="img">
-      <img :src="item.image" alt="image" />
-    </div>
-    <div class="des">
-      <strong>{{ item.title }}</strong> <br />
-      {{ item.price }}<br />
-    </div>
-    
+    <ul class="product-list">
+      <li>
+        <div class="img">
+          <img :src="productImage" alt="image" />
+        </div>
+        <div class="des">
+          <strong>{{ productTitle }}</strong> <br />
+          {{ productPrice }}<br />
+          {{ productSummary }}
+        </div>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -69,3 +63,4 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped></style>
