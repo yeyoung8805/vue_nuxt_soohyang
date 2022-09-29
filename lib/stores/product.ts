@@ -8,6 +8,6 @@ export const useProductStore = defineStore({
     return {
       items: [] as Product[],
       item: {} as Product,
-    }
+    };
   },
 });
