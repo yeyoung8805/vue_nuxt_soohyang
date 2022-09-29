@@ -2,7 +2,7 @@
   <section class="max pad-mid">
     <div class="container">
       <ul class="product-list">
-        <li v-for="(item, i) in productStore.items" :key="i">
+        <li v-for="item in productStore.items" :key="item.id">
           <nuxt-link :to="{ path: 'detail/' + item.id }">
             <div class="img">
               <img :src="item.image" alt="image" />
