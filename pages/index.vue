@@ -30,7 +30,7 @@ const resFetch = async () => {
     .reads()
     .then((data) => {
       productStore.items = data;
-      console.log("fetch: " + JSON.stringify(productStore.items));
+      // console.log("fetch: " + JSON.stringify(productStore.items));
     })
     .catch((error) => {
       console.log(error);
