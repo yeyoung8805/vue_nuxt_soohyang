@@ -32,7 +32,7 @@ export default {
     };
   },
   created() {
-    this.id = this.$route.query.id;
+    this.id = useRoute().params.id;
     console.log("id : " + this.id);
     if (this.id != undefined) {
       this.readProductDetail();
