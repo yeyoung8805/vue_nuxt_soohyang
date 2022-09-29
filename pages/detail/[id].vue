@@ -19,6 +19,8 @@
 </template>
 
 <script lang="ts">
+import * as productRepository from "@/lib/repositories/product";
+
 export default {
   data() {
     return {
@@ -40,8 +42,8 @@ export default {
   },
   methods: {
     async readProductDetail() {
-      await fetch("/data/product.json")
-        .then((res) => res.json())
+      await productRepository
+        .reads()
         .then((data) => {
           console.log("data : " + data[this.id - 1]);
           console.log("data.id : " + data[this.id - 1].id);
