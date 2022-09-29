@@ -7,6 +7,7 @@ export const useProductStore = defineStore({
   state: () => {
     return {
       items: [] as Product[],
+      item: {} as Product,
     }
   },
 });
