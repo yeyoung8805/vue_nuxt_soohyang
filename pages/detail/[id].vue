@@ -1,21 +1,21 @@
 <template>
-  <div>
-    <h1>
-      <strong>{{ productId }}</strong>
-    </h1>
-    <ul class="product-list">
-      <li>
-        <div class="img">
-          <img :src="productImage" alt="image" />
-        </div>
-        <div class="des">
-          <strong>{{ productTitle }}</strong> <br />
-          {{ productPrice }}<br />
-          {{ productSummary }}
-        </div>
-      </li>
-    </ul>
-  </div>
+  <section class="max">
+    <div class="container">
+      <div>
+        <h1>
+          <strong>{{ productId }}</strong>
+        </h1>
+      </div>
+      <div class="product-detail">
+        <img :src="productImage" alt="image" />
+        <br /><br />
+        <h1>{{ productTitle }}</h1>
+        <br />
+        {{ productPrice }}<br />
+        {{ productSummary }}
+      </div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">
