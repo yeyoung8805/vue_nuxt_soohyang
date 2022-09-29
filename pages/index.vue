@@ -19,13 +19,15 @@
 </template>
 
 <script setup lang="ts">
+import * as productRepository from "@/lib/repositories/product";
 import { useProductStore } from "@/lib/stores/product";
 
 const productStore = useProductStore();
 
+// async function resFetch(){
 const resFetch = async () => {
-  await fetch("/data/product.json")
-    .then((res) => res.json())
+  await productRepository
+    .reads()
     .then((data) => {
       productStore.items = data;
       console.log("fetch: " + JSON.stringify(productStore.items));
