@@ -43,4 +43,15 @@ async function readProductDetail(_id: number) {
 readProductDetail(Number(useRoute().params.id));
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.product-detail {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.product-detail h1 {
+  margin-bottom: 10px;
+}
+.product-detail img {
+  width: 100%;
+}
+</style>
