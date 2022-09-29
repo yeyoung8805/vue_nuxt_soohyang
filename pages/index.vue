@@ -24,8 +24,9 @@ import { useProductStore } from "@/lib/stores/product";
 
 const productStore = useProductStore();
 
-// async function resFetch(){
-const resFetch = async () => {
+async function resFetch() {
+  //와 동일
+  // const resFetch = async () => {
   await productRepository
     .reads()
     .then((data) => {
@@ -35,6 +36,6 @@ const resFetch = async () => {
     .catch((error) => {
       console.log(error);
     });
-};
+}
 resFetch();
 </script>
