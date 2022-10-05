@@ -46,15 +46,15 @@ a {
     color: inherit;
     text-decoration: none;
 }
-a:link {
+a:link { /*방문 전 링크 상태*/
     color: inherit;
     text-decoration: none;
 }
-a:visited {
+a:visited { /*방문 후 링크 상태*/
     color: inherit;
     text-decoration: none;
 }
-a:hover {
+a:hover { /*마우스오버 했을때 링크 상태*/
     text-decoration: underline;
 }
 
